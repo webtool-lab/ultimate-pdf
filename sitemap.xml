@@ -8,27 +8,70 @@
 
 <url>
 <loc>https://webtool-lab.github.io/ultimate-pdf/merge.html</loc>
-<priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://webtool-lab.github.io/ultimate-pdf/split.html</loc>
-<priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://webtool-lab.github.io/ultimate-pdf/compress.html</loc>
-<priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://https://webtool-lab.github.io/ultimate-pdf/pdf-to-word.html</loc>
-<priority>0.8</priority>
+<loc>https://webtool-lab.github.io/ultimate-pdf/images-to-pdf.html</loc>
 </url>
 
 <url>
-<loc>https://webtool-lab.github.io/ultimate-pdf//pdf-to-jpg.html</loc>
-<priority>0.8</priority>
+<loc>https://webtool-lab.github.io/ultimate-pdf/rotate.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/reorder-pages.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/delete-pages.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/page-numbers.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/signature.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/reader.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/about.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/contact.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/privacy.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/terms.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/disclaimer.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/faq.html</loc>
+</url>
+
+<url>
+<loc>https://webtool-lab.github.io/ultimate-pdf/legal.html</loc>
 </url>
 
 </urlset>
