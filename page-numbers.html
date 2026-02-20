@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Add Page Numbers — Ultimate PDF Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="top-nav">
+      <div class="logo">Ultimate PDF Tool</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="tool-page">
+    <!-- AD: Top Banner -->
+    <div class="ad ad-banner ad-top" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <h1>Add Page Numbers</h1>
+    <p>Add automatic page numbers to your PDF.</p>
+    <div class="file-upload">
+      <input type="file" id="pageNumberFile" accept="application/pdf" hidden>
+      <label for="pageNumberFile" class="file-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.6" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <path d="M14 2v6h6" />
+        </svg>
+        <span>Upload PDF file</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.6" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </label>
+      <div class="file-name" id="pageNumberFileName">No file chosen</div>
+    </div>
+    <select id="pageNumberPosition">
+      <option value="bottom-center">Bottom Center</option>
+      <option value="bottom-right">Bottom Right</option>
+      <option value="bottom-left">Bottom Left</option>
+      <option value="top-center">Top Center</option>
+      <option value="top-right">Top Right</option>
+      <option value="top-left">Top Left</option>
+    </select>
+    <button onclick="addPageNumbers()">Add Page Numbers</button>
+
+    <!-- AD: Middle -->
+    <div class="ad ad-inline" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <div class="tool-info">
+      <h2>ADD PAGE NUMBERS TO PDF ONLINE</h2>
+      <p>Automatically add page numbers to your PDF document with the Add Page Numbers tool. Choose the position and
+        format, then download your numbered PDF in seconds.</p>
+
+      <p>This tool is perfect for reports, assignments, books, and official documents that require clear page numbering.
+      </p>
+
+      <p>All page numbering is applied directly inside your browser, keeping your files safe and private.</p>
+    </div>
+
+    <div class="related-tools">
+      <div class="related-label">Explore other tools</div>
+      <div class="related-links">
+        <a href="merge.html">Merge</a>
+        <a href="signature.html">Signature</a>
+      </div>
+    </div>
+
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <!-- AD: Footer -->
+    <div class="ad ad-footer" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="col brand">
+          <h3>Ultimate PDF Tool</h3>
+          <p>The all-in-one solution for your PDF documents. Merge, split, compress, and edit your files securely in your browser with no limits. Fast, free, and private.</p>
+        </div>
+        <!-- Col 2: Tools 1 -->
+        <div class="col">
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="merge.html">Merge PDF</a></li>
+            <li><a href="split.html">Split PDF</a></li>
+            <li><a href="compress.html">Compress PDF</a></li>
+            <li><a href="rotate.html">Rotate PDF</a></li>
+          </ul>
+        </div>
+        <!-- Col 3: Tools 2 -->
+        <div class="col">
+          <h4>&nbsp;</h4>
+          <ul>
+            <li><a href="images-to-pdf.html">Images to PDF</a></li>
+            <li><a href="delete-pages.html">Delete Pages</a></li>
+            <li><a href="reorder-pages.html">Reorder Pages</a></li>
+            <li><a href="reader.html">PDF Reader</a></li>
+          </ul>
+        </div>
+        <!-- Col 4: Tools 3 -->
+        <div class="col">
+          <h4>&nbsp;</h4>
+          <ul>
+            <li><a href="watermark.html">Watermark PDF</a></li>
+            <li><a href="page-numbers.html">Page Numbers</a></li>
+            <li><a href="signature.html">Add Signature</a></li>
+          </ul>
+        </div>
+        <!-- Col 5: Pages -->
+        <div class="col">
+          <h4>Pages</h4>
+          <ul class="footer-sections">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="legal.html">Legal</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="legal.html#about">About Us</a></li>
+            <li><a href="legal.html#privacy">Privacy Policy</a></li>
+            <li><a href="legal.html#terms">Terms of Service</a></li>
+            <li><a href="legal.html#disclaimer">Disclaimer</a></li>
+            <li><a href="legal.html#children">Children's Privacy</a></li>
+            <li><a href="legal.html#changes">Changes to Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <nav class="footer-nav">
+          <a href="index.html">Home</a> | <a href="index.html#tools-section">All Tools</a> | <a href="faq.html">FAQ</a> | <a href="legal.html">Legal</a> | <a href="contact.html">Contact</a>
+        </nav>
+        <p>© 2026 Ultimate PDF Tool. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

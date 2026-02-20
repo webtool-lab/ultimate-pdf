@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Delete PDF Pages — Ultimate PDF Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="top-nav">
+      <div class="logo">Ultimate PDF Tool</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="tool-page">
+    <!-- AD: Top Banner -->
+    <div class="ad ad-banner ad-top" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <h1>Delete PDF Pages</h1>
+    <p>Remove unwanted pages from your PDF.</p>
+    <div class="file-upload">
+      <input type="file" id="deletePdfFile" accept="application/pdf" hidden>
+      <label for="deletePdfFile" class="file-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="pdf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.6" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <path d="M14 2v6h6" />
+        </svg>
+        <span>Upload PDF file</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.6" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </label>
+      <div class="file-name" id="deletePdfFileName">No file chosen</div>
+    </div>
+    <input type="text" id="deletePagesInput" placeholder="Example: 1,3,5">
+    <button onclick="deletePages()">Delete Pages</button>
+
+    <!-- AD: Middle -->
+    <div class="ad ad-inline" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <div class="tool-info">
+      <h2>DELETE PDF PAGES ONLINE</h2>
+      <p>Easily remove unwanted pages from your PDF document using the Delete PDF Pages tool. Upload your file, select
+        the pages you want to delete, and download a clean PDF with only the pages you need.</p>
+
+      <p>This tool is perfect for removing blank pages, mistakes, or sensitive information before sharing a document.
+      </p>
+
+      <p>All processing happens directly inside your browser, ensuring your files remain private and secure. No uploads,
+        no storage, and no sign-up required.</p>
+
+      
+    </div>
+
+    <div class="related-tools">
+      <div class="related-label">Explore other tools</div>
+      <div class="related-links">
+        <a href="split.html">Split</a>
+        <a href="reorder-pages.html">Reorder</a>
+      </div>
+    </div>
+
+    <p><a href="index.html">← Back to Home</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <!-- AD: Footer -->
+    <div class="ad ad-footer" role="complementary" aria-label="Advertisement">
+      <div class="ad-content">
+        <span class="ad-placeholder">Advertisement</span>
+        <!-- Google AdSense Code -->
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> | <a href="index.html#tools-section">All Tools</a> | <a href="faq.html">FAQ</a> |
+        <a href="legal.html">Legal</a> | <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
